@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // Deaktiviere bestimmte ESLint-Regeln
+    "react-hooks/exhaustive-deps": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/google-font-display": "off",
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": "off"
+  }
+}
